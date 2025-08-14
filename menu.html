@@ -4,6 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gacoan Favorit</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1e90ff;
+            margin-bottom: 20px;
+        }
+
+        .gacoan-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .gacoan-card:hover {
+            transform: scale(1.05);
+        }
+
+        .gacoan-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .gacoan-card h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .gacoan-card p {
+            padding: 0 10px 10px 10px;
+            color: #666;
+        }
+
+        .gacoan-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+    </style>
 </head>
 <body>
     <h1>Gacoan Favoritku</h1>
